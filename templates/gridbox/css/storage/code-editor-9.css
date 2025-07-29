@@ -1,0 +1,50 @@
+.ic-contact .fa-phone-volume {
+    color: #ff0b27 !important;
+}
+
+
+/*
+/* For IOS
+*/
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media(max-width: 1024px) {
+
+        .column-wrapper{
+            max-width: 100%;
+            /*overflow: hidden;*/
+        }
+
+        .column-wrapper > * {
+            margin: 0 -1px;
+        }
+    }
+}
+
+@supports (-webkit-text-size-adjust:none) and (-webkit-marquee-repetition:infinite) and (object-fit:fill) {
+    @media(max-width: 1024px) {
+
+        .column-wrapper{
+            max-width: 100%;
+            /*overflow: hidden;*/
+        }
+
+        .column-wrapper > * {
+            margin: 0 -1px;
+        }
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media(max-width: 1024px) {
+
+        .column-wrapper{
+            max-width: 100%;
+            /*overflow: hidden;*/
+        }
+
+        .column-wrapper > * {
+            margin: 0 -1px;
+        }
+    }
+}
